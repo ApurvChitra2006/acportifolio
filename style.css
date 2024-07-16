@@ -1,0 +1,552 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+hr{
+    border-top: 3px double #343434
+}
+
+.cont{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+/* .btn{
+    padding: 5px 10px;
+    margin-top: 15px;
+    background-color: #b4b0ab;
+} */
+
+#conta1{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#a01{
+    display: flex;
+    height: 90vh;
+    width: 90vw;
+    justify-content: center;
+}
+
+#b01{
+    background-image: url("Images/Profile/Profile\ Photo\ 2.png");
+    background-size: cover;
+    display: inline-block;
+    width: 40%;
+    height:auto;
+    box-shadow: 10px 10px 5px #343434;
+}
+
+#b02{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    width: 50%;
+    height: 100%;
+}
+
+#aa01, #aa02{
+    color: black;
+    text-decoration: none;
+    border: 1px solid #343434;
+    border-radius: 5px;
+}
+
+#aa01:hover{
+    color: white;
+    background-color: #343434;
+    border-radius: 5px;
+}
+
+#aa02:hover{
+    color: white;
+    background-color: #343434;
+    border-radius: 5px;
+}
+
+#c01{
+    color: #343434;
+    display: block;
+
+}
+
+#c02{
+    display: block;
+    font-size: 25px;
+    color: #343434;
+}
+
+#but01{
+    /* background-color: gray; */
+    border: 3px double gray;
+    color: rgb(53, 47, 47);
+    font-size: 15px;
+    margin-top: 25px;
+    width: 145px;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+#but01:hover{
+    background-color: rgb(43, 37, 37);
+    color:#d6bfbf
+}
+
+#conta2{
+    background-color: #b4b0ab;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#a02{
+    background-color: #b4b0ab;
+    display: flex;
+    height: 90vh;
+    width: 90vw;
+    justify-content: center;
+}
+
+#b03{
+    display: inline-flex;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+    justify-content: center;
+
+
+}
+
+#c03{
+    color: #343434;
+    padding-left: 10px;
+    font-size: 45px;
+}
+
+#c04{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 20px;
+    width: 80%
+}
+
+#b04{
+    display: inline-flex;
+    height: 100%;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+#c05{
+    background-image: url("Images/Profile/Profile\ Photo.png");
+    background-size: cover;
+    height: 90%;
+    width: 90%;
+    border: 2px solid #343434;
+}
+
+#conta3{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#a03{
+    display: flex;
+    height: 90vh;
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#b05{
+    display: inline-flex;
+    height: 90%;
+    width: 40%;
+    position: relative;
+    top: 200px;
+    left: 20px;
+}
+
+#b06{
+    display: inline-flex;
+    height: 90%;
+    width: 60%;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+#L03{
+    font-size: 45px;
+    color: #343434;
+}
+
+#d01{
+    font-weight: bolder;
+    font-size: 30px;
+    color: #343434;
+}
+
+#d03{
+    font-weight: bolder;
+    font-size: 30px;
+    color: #343434;
+}
+
+#c06{
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#c07{
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#c08{
+    padding-left: 30px;
+}
+
+#c07{
+    padding-left: 30px;
+}
+
+#c10{
+    padding-left: 30px;
+}
+
+#d04{
+    font-weight: bolder;
+    font-size: 30px;
+    color: #343434;
+}
+
+#d05{
+    font-weight: bolder;
+    font-size: 30px;
+    color: #343434;
+}
+
+#d06{
+    font-size: 25px;
+}
+
+#d07{
+    font-size: 25px;
+}
+
+
+#conta4{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#f01{
+    display: flex;
+    height: 90%;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#f02{
+    height: 20%;
+    width: 90%;
+}
+
+#L04{
+    font-size: 45px;
+    color: #343434;
+}
+
+
+#f03{
+    height: 60%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#f04{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#f05{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Skills{
+    height: 30%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#f001, #f004, #f007, #f0010{
+    font-weight: bold;
+    font-size: 20px;
+    color: #343434;
+    margin-left: 10px;
+}
+
+#f002, #f005, #f008, #f0011{
+    border: 2px solid #343434;
+    height: 30%;
+    width: 90%;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#f003{
+    background-color: black;
+    height: 100%;
+    width: 75%;
+}
+
+#f006{
+    background-color: black;
+    height: 100%;
+    width: 25%;
+}
+
+#f009{
+    background-color: black;
+    height: 100%;
+    width: 33%;
+}
+
+#f0012{
+    background-color: black;
+    height: 100%;
+    width: 50%;
+}
+
+#conta5{
+    background-color: #343434;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#h01{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#h02{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#h03{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Con{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pho{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Tit{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Bod{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#conta6{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+#g01{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#g02{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#g03{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#g04{
+    height: 90%;
+    width: 90%;
+}
+
+#g05{
+    height: 30%;
+    width: 90%;
+}
+
+#g06{
+    height: 30%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#g07{
+    height: 30%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#g08{
+    height: 40%;
+    width: 90%;
+    margin-left: 28px;
+    position: relative;
+    top: -20px;
+}
+
+#g09{
+    height: 40%;
+    width: 45%;
+    margin-left: 28px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: -30px;
+}
+
+#g10{
+    height: 40%;
+    width: 90%;
+}
+
+#g11{
+    height: 40%;
+    width: 90%;
+}
+
+#g12{
+    height: 100%;
+    width:30%;
+    display: inline-block;
+}
+
+#g13{
+    height: 100%;
+    width:30%;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+#g14{
+    height: 100%;
+    width:30%;
+    display: inline-block;
+}
+
+#gm01{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    position: relative;
+    top: 75px;
+    left: 30px;
+}
+
+#gm02{
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    position: relative;
+    top: 30px
+}
+
+#gm03{
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+
+#gm04{
+    position: relative;
+    top: 30px;
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+}
+
